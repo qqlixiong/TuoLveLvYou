@@ -14,7 +14,7 @@
     }
 
     public static RecyclerViewUtil getInstance() {
-        return Inner.manager;<br>
+        return Inner.manager;
     }
 
     public <T> void initRecyclerView(final RecyclerView recyclerView, List<T> list, Object... objects){
