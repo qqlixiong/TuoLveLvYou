@@ -1,7 +1,8 @@
 # TuoLveLvYou
 这是一个与旅游相关的APP,使用了万能RecyclerView，Banner轮播框架，下拉刷新框架，Glide图片加载，地图定位，ViewHolder编程，Android生命周期的回调等，你可以直接安装apk看效果哈！
-------------------------------------------
+======================================================================
 万能RecyclerView：<br>
+--------------------------------------------------------------------------
 1.首先定义两个类  ModelRecyclerAdapter<T>     RecyclerItemViewId<br>
 2.写一个Holder继承  ModelRecyclerAdapter.ModelViewHolder   在类上标记注解@RecyclerItemViewId（LayoutId）<br>
 3.写一个类RecyclerViewUtil：
