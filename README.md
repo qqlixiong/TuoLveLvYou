@@ -1,9 +1,9 @@
 # TuoLveLvYou
 这是一个与旅游相关的APP,使用了万能RecyclerView，Banner轮播框架，下拉刷新框架，Glide图片加载，地图定位，ViewHolder编程，Android生命周期的回调等，你可以直接安装apk看效果哈！
 ------------------------------------------
-万能RecyclerView：
-1.首先定义两个类  ModelRecyclerAdapter<T>     RecyclerItemViewId
-2.写一个Holder继承  ModelRecyclerAdapter.ModelViewHolder   在类上标记注解@RecyclerItemViewId（LayoutId）
+万能RecyclerView：<br>
+1.首先定义两个类  ModelRecyclerAdapter<T>     RecyclerItemViewId<br>
+2.写一个Holder继承  ModelRecyclerAdapter.ModelViewHolder   在类上标记注解@RecyclerItemViewId（LayoutId）<br>
 3.写一个类RecyclerViewUtil：
   public class RecyclerViewUtil {
 
@@ -14,7 +14,7 @@
     }
 
     public static RecyclerViewUtil getInstance() {
-        return Inner.manager;
+        return Inner.manager;<br>
     }
 
     public <T> void initRecyclerView(final RecyclerView recyclerView, List<T> list, Object... objects){
@@ -64,9 +64,9 @@
             }
         }
     }
-}
-ViewHolder编程：
-1.写一个BaseHolder:
+}<br>
+ViewHolder编程：<br>
+1.写一个BaseHolder:<br>
  public abstract class BaseHolder<T> {
     private View contentView;//界面
 
@@ -100,9 +100,9 @@ ViewHolder编程：
      * @param data
      */
     protected abstract void refreshView(T data);
-}
-1.写一个ViewHolder 继承于BaseHolder 
-2.把ViewHolder添加到帧布局
-Activity生命周期的回调：
-在Application中有registerActivityLifecycleCallbacks方法   有助于生命周期的统一管理     可以替换BaseActivity
-对于Fragment同样可以     例子我将在之后做详细讲解。
+}<br>
+1.写一个ViewHolder 继承于BaseHolder <br>
+2.把ViewHolder添加到帧布局<br>
+Activity生命周期的回调：<br>
+在Application中有registerActivityLifecycleCallbacks方法，   有助于生命周期的统一管理，     可以替换BaseActivity<br>
+对于Fragment同样可以    <br> 例子我将在之后做详细讲解。
