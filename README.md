@@ -67,7 +67,7 @@
 }<br>
 ViewHolder编程：<br>
 1.写一个BaseHolder:<br>
- public abstract class BaseHolder<T> {
+ public abstract class BaseHolder<T> {<br>
     private View contentView;//界面
 
     //初始化的时候 先初始化空间，再把控件 都写到view里面（类似于listview的 view.setTag(holder)）
@@ -101,8 +101,8 @@ ViewHolder编程：<br>
      */
     protected abstract void refreshView(T data);
 }<br>
-1.写一个ViewHolder 继承于BaseHolder <br>
-2.把ViewHolder添加到帧布局<br>
+2.写一个ViewHolder 继承于BaseHolder <br>
+3.把ViewHolder添加到帧布局<br>
 Activity生命周期的回调：<br>
 在Application中有registerActivityLifecycleCallbacks方法，   有助于生命周期的统一管理，     可以替换BaseActivity<br>
 对于Fragment同样可以    <br> 例子我将在之后做详细讲解。
