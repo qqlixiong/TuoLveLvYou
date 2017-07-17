@@ -1,11 +1,11 @@
 # TuoLveLvYou
 这是一个与旅游相关的APP,使用了万能RecyclerView，Banner轮播框架，下拉刷新框架，Glide图片加载，地图定位，ViewHolder编程，Android生命周期的回调等，你可以直接安装apk看效果哈！
 ======================================================================
-##万能RecyclerView：<br>
+##  万能RecyclerView：<br>
 --------------------------------------------------------------------------
-###1.首先定义两个类  ModelRecyclerAdapter<T>     RecyclerItemViewId<br>
-###2.写一个Holder继承  ModelRecyclerAdapter.ModelViewHolder   在类上标记注解@RecyclerItemViewId（LayoutId）<br>
-###3.写一个类RecyclerViewUtil：
+###  1.首先定义两个类  ModelRecyclerAdapter<T>     RecyclerItemViewId<br>
+###  2.写一个Holder继承  ModelRecyclerAdapter.ModelViewHolder   在类上标记注解@RecyclerItemViewId（LayoutId）<br>
+###  3.写一个类RecyclerViewUtil：
 ----------------------------------------------------------------------------
   public class RecyclerViewUtil {
 
@@ -67,9 +67,9 @@
         }
     }
 }<br>
-##ViewHolder编程：<br>
+##   ViewHolder编程：<br>
 ----------------------------------------------------------------------------------
-###1.写一个BaseHolder:<br>
+###  1.写一个BaseHolder:<br>
 ------------------------------------------------------------------------------------
  public abstract class BaseHolder<T> {<br>
     private View contentView;//界面
@@ -105,9 +105,9 @@
      */
     protected abstract void refreshView(T data);
 }<br>
-###2.写一个ViewHolder 继承于BaseHolder <br>
-###3.把ViewHolder添加到帧布局<br>
-##Activity生命周期的回调：<br>
+###   2.写一个ViewHolder 继承于BaseHolder <br>
+###   3.把ViewHolder添加到帧布局<br>
+##    Activity生命周期的回调：<br>
 --------------------------------------------------------------------------------
 在Application中有registerActivityLifecycleCallbacks方法，   有助于生命周期的统一管理，     可以替换BaseActivity<br>
 对于Fragment同样可以    <br> 例子我将在之后做详细讲解。
