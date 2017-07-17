@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:extractable="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <View
+        style="@style/line_view"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.tuolve.lvyou.view.CustomExtractableView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            extractable:extractable_money="￥100.00"
+            extractable:extractable_name="累计佣金"
+            android:layout_weight="1"/>
+
+        <com.tuolve.lvyou.view.CustomExtractableView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            extractable:extractable_money="￥100.00"
+            extractable:extractable_name="可提佣金"
+            android:layout_weight="1"/>
+
+        <include layout="@layout/immediately_with_draw_deposit_item"/>
+    </LinearLayout>
+
+    <View
+        style="@style/line_view"/>
+</merge>

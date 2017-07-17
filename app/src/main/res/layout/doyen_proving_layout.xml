@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@android:drawable/star_on"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/iv_doyen_a"/>
+
+    <TextView
+        android:text="西班牙"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_doyen_a"
+        android:layout_toRightOf="@+id/iv_doyen_a"
+        android:layout_toEndOf="@+id/iv_doyen_a"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/textView78"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@android:drawable/star_on"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:id="@+id/imageView16"
+        android:layout_alignBottom="@+id/textView78"
+        android:layout_toRightOf="@+id/textView78"
+        android:layout_toEndOf="@+id/textView78"/>
+
+    <TextView
+        android:text="身份已验证"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:background="@drawable/guess_like"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:id="@+id/textView93"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView16"
+        android:layout_toEndOf="@+id/imageView16"/>
+</RelativeLayout>

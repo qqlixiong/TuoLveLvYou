@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_member_recharge"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tuolve.lvyou.my.activity.MemberRechargeActivity">
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_text="充值1000元成为VIP1,会费锁定"/>
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_text="充值2000元成为VIP2,会费锁定"/>
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_text="充值3000元成为VIP3"/>
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_text="充值4000元成为VIP4"/>
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_text="充值5000元成为VIP5"/>
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_text="充值6000元成为VIP6"/>
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_text="充值7000元成为VIP7"/>
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        my:my_text="充值"/>
+</LinearLayout>

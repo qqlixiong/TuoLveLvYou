@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <include layout="@layout/tribe_person_sub_item"/>
+
+    <include layout="@layout/tribe_country_item"/>
+
+    <include layout="@layout/tribe_person_time_item"/>
+
+    <include layout="@layout/recommend_shadow_layout"/>
+</LinearLayout>

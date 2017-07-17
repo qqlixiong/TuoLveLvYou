@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/guess_like_head_pic_layout"/>
+
+        <include layout="@layout/guess_rating_bar_layout"/>
+
+        <include layout="@layout/recommend_shadow_layout"/>
+
+        <include layout="@layout/guess_like_rebate_layout"/>
+    </LinearLayout>
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

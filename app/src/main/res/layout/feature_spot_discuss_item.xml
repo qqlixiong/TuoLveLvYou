@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_feature_spot_pic"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rv_bg"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/textView_feature_spot_discuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_feature_spot_pic"
+        android:layout_alignStart="@+id/iv_feature_spot_pic"
+        android:layout_below="@+id/iv_feature_spot_pic"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:text="香港景点好评top10"/>
+</RelativeLayout>

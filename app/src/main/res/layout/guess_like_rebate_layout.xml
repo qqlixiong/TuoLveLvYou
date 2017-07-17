@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <include layout="@layout/guess_like_rebate_item"/>
+
+    <include layout="@layout/look_all_rebate_layout"/>
+
+    <include layout="@layout/select_discount_content_layout"/>
+
+    <include layout="@layout/guess_like_look_all_layout"/>
+
+    <include layout="@layout/guess_like_all_spread"/>
+</LinearLayout>

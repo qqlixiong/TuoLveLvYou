@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_immediate_reservation"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuolve.lvyou.recommend.seasonplay.activity.ImmediateReservationActivity">
+
+    <include layout="@layout/immediate_reservation_layout"/>
+
+    <include layout="@layout/immediate_reservation_bottom_layout"/>
+</RelativeLayout>

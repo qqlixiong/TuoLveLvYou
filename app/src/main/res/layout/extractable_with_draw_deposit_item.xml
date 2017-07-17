@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/doyen_bg"
+                android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_extractable_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="￥100.00"/>
+
+    <TextView
+        android:id="@+id/tv_extractable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tv_extractable_money"
+        android:layout_alignRight="@+id/tv_extractable_money"
+        android:layout_below="@+id/tv_extractable_money"
+        android:layout_marginTop="10dp"
+        android:text="可提佣金"/>
+</RelativeLayout>

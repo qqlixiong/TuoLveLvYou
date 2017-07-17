@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">旅游</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_city_number">%1$s个国家</string>
+    <string name="my_message">my_message</string>
+    <string name="travel_release">travel_release</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_person_message"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/textView_announcement"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:background="@drawable/recommend_a"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="公告"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_guess_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_person_message"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="五月适合去哪旅行"
+        android:gravity="center_horizontal"
+        android:textColor="@color/recommend_b"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_guess_a"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@color/recommend_c"
+        android:text="如果你无法简洁的表达你的想法,那只说明你还不够了解它如果你无法简洁的"/>
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_title_bar"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="6dp"
+        android:text="&#45;&#45; 阿尔伯特.爱英斯坦"/>-->
+
+    <RelativeLayout
+        android:layout_below="@id/textView_title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/recommend_shadow_layout"/>
+    </RelativeLayout>
+</RelativeLayout>

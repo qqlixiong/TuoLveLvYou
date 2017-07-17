@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@mipmap/ic_launcher"
+        android:background="@drawable/rv_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"
+        android:id="@+id/iv_person_message"/>
+
+    <TextView
+        android:text="7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_person_message"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="40sp"
+        android:id="@+id/textView_num"/>
+
+    <TextView
+        android:text="里斯的香港台湾行程"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView29"
+        android:layout_toRightOf="@+id/textView29"
+        android:layout_toEndOf="@+id/textView29"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:id="@+id/textView30"/>
+
+    <TextView
+        android:text="天"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/textView29"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textView_num"
+        android:layout_alignBottom="@+id/textView_num"
+        android:layout_toRightOf="@+id/textView_num"
+        android:layout_toEndOf="@+id/textView_num"/>
+
+    <TextView
+        android:text="上海》香港》台北》台中市》垦丁》台北》上海"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@+id/iv_person_message"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView31"/>
+
+    <RelativeLayout
+        android:layout_below="@id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/recommend_shadow_layout"/>
+    </RelativeLayout>
+</RelativeLayout>

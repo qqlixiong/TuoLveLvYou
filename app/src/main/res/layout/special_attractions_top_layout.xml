@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg_special_attractions"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/rb_attractions"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_drawable_selector"
+        android:drawableBottom="@drawable/special_attractions_drawable_selector"
+        android:text="景点"/>
+
+    <RadioButton
+        android:id="@+id/rb_cate"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_drawable_selector"
+        android:drawableBottom="@drawable/special_attractions_drawable_selector"
+        android:text="美食"/>
+
+    <RadioButton
+        android:id="@+id/rb_trade"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_drawable_selector"
+        android:drawableBottom="@drawable/special_attractions_drawable_selector"
+        android:text="购物"/>
+</RadioGroup>

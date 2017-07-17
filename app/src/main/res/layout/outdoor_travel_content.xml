@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/outdoor_travel_title_layout"/>
+
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/line_view"
+        style="@style/line_view"/>
+
+    <TextView
+        android:text="结伴内容"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18sp"
+        android:id="@+id/textView19"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:inputType="textPersonName"
+        style="@style/edit_text_bg"
+        android:hint="多行输入"
+        android:paddingTop="8dp"
+        android:gravity="top"
+        android:paddingLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/doyen_bg"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText_content"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rv_bg"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_alignLeft="@+id/editText_content"
+        android:layout_alignStart="@+id/editText_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/imageView9"/>
+</LinearLayout>

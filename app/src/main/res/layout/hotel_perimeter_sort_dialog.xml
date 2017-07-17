@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_margin="24dp"
+                android:background="@drawable/doyen_bg"
+                android:layout_gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:text="排序"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView121"/>
+
+    <TextView
+        android:text="智能排序"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView121"
+        android:layout_toRightOf="@+id/textView121"
+        android:layout_toEndOf="@+id/textView121"
+        android:layout_marginTop="32dp"
+        android:id="@+id/textView127"/>
+
+    <TextView
+        android:text="评价高低排序"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView127"
+        android:layout_alignLeft="@+id/textView127"
+        android:layout_alignStart="@+id/textView127"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView128"/>
+
+    <TextView
+        android:text="价格高低排序"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView128"
+        android:layout_alignLeft="@+id/textView128"
+        android:layout_alignStart="@+id/textView128"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView129"/>
+
+    <TextView
+        android:text="星级高低排序"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView129"
+        android:layout_alignLeft="@+id/textView129"
+        android:layout_alignStart="@+id/textView129"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView130"/>
+
+    <View
+        android:id="@+id/hotel_perimeter_view"
+        android:layout_below="@id/textView130"
+        android:layout_marginTop="160dp"
+        style="@style/line_view"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox5"
+        android:layout_alignBaseline="@+id/textView130"
+        android:layout_alignBottom="@+id/textView130"
+        android:layout_alignLeft="@+id/checkBox4"
+        android:layout_alignStart="@+id/checkBox4"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox4"
+        android:layout_alignBaseline="@+id/textView129"
+        android:layout_alignBottom="@+id/textView129"
+        android:layout_alignLeft="@+id/checkBox3"
+        android:layout_alignStart="@+id/checkBox3"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3"
+        android:layout_alignBaseline="@+id/textView128"
+        android:layout_alignBottom="@+id/textView128"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_alignStart="@+id/checkBox2"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="34dp"
+        android:id="@+id/checkBox2"
+        android:layout_marginEnd="34dp"
+        android:layout_alignBaseline="@+id/textView127"
+        android:layout_alignBottom="@+id/textView127"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:text="取消"
+        android:textSize="16sp"
+        android:background="@drawable/doyen_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotel_perimeter_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/sort_button_cancel"/>
+
+    <Button
+        android:text="确定"
+        android:textSize="16sp"
+        android:background="@drawable/doyen_bg"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sort_button_cancel"
+        android:layout_toLeftOf="@+id/sort_button_cancel"
+        android:layout_toStartOf="@+id/sort_button_cancel"
+        android:id="@+id/sort_button_confirm"/>
+</RelativeLayout>

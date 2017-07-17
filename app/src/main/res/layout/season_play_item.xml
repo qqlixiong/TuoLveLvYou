@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl_season_play">
+
+    <ImageView
+        android:id="@+id/iv_play_a"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <!--<TextView
+        android:id="@+id/tv_guess_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_person_message"
+        android:layout_alignLeft="@+id/iv_person_message"
+        android:layout_alignStart="@+id/iv_person_message"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:text="￥759元/车"
+        android:textSize="16sp"/>-->
+
+    <TextView
+        android:id="@+id/tv_play_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_play_a"
+        android:layout_alignStart="@+id/iv_play_a"
+        android:layout_below="@+id/iv_play_a"
+        android:layout_marginTop="10dp"
+        android:text="寻找镜头下的风景"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:text="向导服务"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:background="@drawable/guess_like"
+        android:layout_below="@id/tv_play_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_play_a"
+        android:layout_alignStart="@+id/tv_play_a"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tv_play_b"/>
+
+    <TextView
+        android:text="日本"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:background="@drawable/guess_like"
+        android:layout_below="@id/tv_play_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_play_c"/>
+
+    <RatingBar
+        android:id="@+id/rb_play_a"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:isIndicator="true"
+        android:layout_below="@+id/tv_play_a"
+        android:numStars="5"
+        android:rating="5"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@id/tv_play_b"
+        android:layout_alignLeft="@+id/tv_play_b"
+        android:layout_alignStart="@+id/tv_play_b"
+        android:layout_marginTop="16dp"
+        android:id="@+id/iv_play_b"/>
+
+    <TextView
+        android:text="南拳北腿张三"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@id/tv_play_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_play_b"
+        android:layout_toEndOf="@+id/iv_play_b"
+        android:id="@+id/tv_play_d"/>
+
+    <TextView
+        android:text="1991"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_play_d"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/tv_play_e"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/star_on"
+        android:layout_marginRight="8dp"
+        android:layout_alignTop="@+id/iv_play_b"
+        android:layout_toLeftOf="@+id/tv_play_e"
+        android:layout_toStartOf="@+id/tv_play_e"
+        android:id="@+id/iv_play_c"/>
+
+    <!--<ImageView
+        android:id="@+id/imageView_guide"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/textView_title_bottom"
+        android:layout_alignStart="@+id/textView_title_bottom"
+        android:layout_below="@+id/textView_title_bottom"
+        android:layout_marginTop="6dp"
+        android:src="@android:drawable/star_on"/>
+
+    <TextView
+        android:id="@+id/textView_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/imageView_guide"
+        android:layout_toEndOf="@+id/imageView_guide"
+        android:layout_toRightOf="@+id/imageView_guide"
+        android:gravity="center"
+        android:text="向导服务"/>
+
+    <ImageView
+        android:id="@+id/imageView_place"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/textView_title_bottom"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/tv_guess_a"
+        android:layout_toRightOf="@+id/tv_guess_a"
+        android:src="@android:drawable/star_on"/>
+
+    <TextView
+        android:id="@+id/textView_place"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/textView_title_bottom"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/imageView_place"
+        android:layout_toRightOf="@+id/imageView_place"
+        android:gravity="center"
+        android:text="曼谷"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView_guide"
+        android:layout_alignStart="@+id/imageView_guide"
+        android:layout_below="@+id/imageView_guide"
+        android:layout_marginTop="10dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="5"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_place"
+        android:layout_alignRight="@+id/textView_place"
+        android:layout_alignTop="@+id/ratingBar"
+        android:gravity="center"
+        android:text="11条评论"/>
+
+    <ImageView
+        android:id="@+id/imageView_pic"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView_title_bottom"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@mipmap/ic_launcher"/>-->
+</RelativeLayout>

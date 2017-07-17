@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_shopping"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/line_view"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/rv_shopping"
+        style="@style/line_view"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_shopping_day"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_shadow"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_shopping_day">
+
+        <include layout="@layout/shopping_shadow_layout"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_guess_a"
+        android:layout_below="@id/rl_shadow"
+        android:text="精选折扣"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+    <View
+        android:id="@+id/line_view_bottom"
+        style="@style/line_view"
+        android:layout_below="@id/tv_guess_a"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_view_bottom"/>
+
+</RelativeLayout>

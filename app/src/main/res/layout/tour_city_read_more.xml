@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:layout_marginTop="24dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/shopping_shadow_layout"
+        android:id="@+id/rl_top"/>
+
+    <TextView
+        android:id="@+id/tv_read_more_title_name"
+        android:layout_below="@id/rl_top"
+        android:text="阅读更多"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_read_more"
+        android:layout_below="@id/tv_read_more_title_name"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

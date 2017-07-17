@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rg_destination_a"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/rb_hot_city"
+        style="@style/left_tag_style"
+        android:text="热门城市"/>
+
+    <View
+        style="@style/des_line_view"/>
+
+    <RadioButton
+        android:id="@+id/rb_popular_island"
+        style="@style/left_tag_style"
+        android:text="人气海岛"/>
+
+    <View
+        style="@style/des_line_view"/>
+
+    <RadioButton
+        android:id="@+id/rb_hk_macao_taiwan"
+        style="@style/left_tag_style"
+        android:text="港澳台"/>
+
+    <View
+        style="@style/des_line_view"/>
+
+    <RadioButton
+        android:id="@+id/rb_korea_japan"
+        style="@style/left_tag_style"
+        android:text="日韩朝"/>
+
+    <View
+        style="@style/des_line_view"/>
+
+    <RadioButton
+        android:id="@+id/rb_southeast_asia"
+        style="@style/left_tag_style"
+        android:text="东南亚"/>
+
+    <View
+        style="@style/des_line_view"/>
+</RadioGroup>

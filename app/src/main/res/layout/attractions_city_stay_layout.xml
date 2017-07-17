@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                xmlns:my="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <include layout="@layout/recommend_shadow_layout"
+        android:id="@+id/attractions_city_stay_top_layout"/>
+
+    <TextView
+        android:text="香港住宿"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@+id/attractions_city_stay_top_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView36"/>
+
+    <TextView
+        android:text="如果你无法简洁的表达你的想法,那只能说明你还不够了解它。XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@+id/textView36"
+        android:id="@+id/textView37"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:text="--阿尔波特.爱因斯坦"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView38"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_attractions_city_stay_select"
+        android:layout_below="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:id="@+id/mtv_all_spot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_attractions_city_stay_select"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        my:my_text="查看全部"/>
+
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/mtv_all_spot"
+        style="@style/line_view"/>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.tuolve.lvyou.shopping.fragment.StrategyFragment">
+
+    <include layout="@layout/banner_layout"/>
+
+    <include layout="@layout/tour_book_title_layout"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_feature_spot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include layout="@layout/strategy_map_layout"/>
+
+    <include layout="@layout/strategy_top_city_layout"/>
+
+    <include layout="@layout/all_spots_layout"/>
+
+    <include layout="@layout/special_attractions_top_layout"/>
+
+    <FrameLayout
+        android:id="@+id/fl_special_attractions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

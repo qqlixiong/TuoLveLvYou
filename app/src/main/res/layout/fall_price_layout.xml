@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:text="元起"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_scenic_play_sub_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textView50"
+        android:layout_toStartOf="@+id/textView50"
+        android:text="458"
+        android:textColor="#FF0000"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_scenic_play_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toLeftOf="@id/tv_scenic_play_sub_price"
+        android:layout_toStartOf="@id/tv_scenic_play_sub_price"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="【梦幻童话】香港迪士尼一日/两日门票"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

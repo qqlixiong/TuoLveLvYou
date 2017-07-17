@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="60dp">
+
+    <TextView
+        android:text="查看全部"
+        android:textColor="@color/guess_like_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView66"/>
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView66"
+        android:layout_toEndOf="@+id/textView66"
+        android:id="@+id/imageView3"/>-->
+</RelativeLayout>

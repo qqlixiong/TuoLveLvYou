@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="bottom_tag_style">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:gravity">center</item>
+
+
+        <item name="android:textColor">@drawable/bottom_textcolor_drawable_selector</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="left_tag_style" parent="bottom_tag_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/bottom_a_textcolor_drawable_selector</item>
+        <item name="android:background">@drawable/bottom_b_textcolor_drawable_selector</item>
+    </style>
+
+    <style name="top_tag_style" parent="bottom_tag_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="line_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/login_text_line</item>
+    </style>
+
+    <style name="des_line_view">
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/destination_select_c</item>
+    </style>
+
+    <style name="vertical_line">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorGray</item>
+    </style>
+
+    <style name="dotted_line" parent="vertical_line">
+        <item name="android:layout_height">4dp</item>
+    </style>
+
+    <style name="tribe_top_style" parent="bottom_tag_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@drawable/bottom_textcolor_drawable_selector</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/rv_bg</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="edit_text_bg">
+        <item name="android:textColorHint">@color/login_text_color</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogTheme.CenterCustom" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

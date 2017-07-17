@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:my="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_user_and_pws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="账号密码"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="个人信息"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_propelling_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="推送设置"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_clear_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="清除缓存"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_check_latest_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="检测最新版本"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="意见反馈"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="联系我们"
+        my:my_src="@android:drawable/star_on"/>
+</merge>

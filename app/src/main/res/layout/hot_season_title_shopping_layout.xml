@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/shopping_shadow_layout"
+        android:id="@+id/rl_top"/>
+
+    <TextView
+        android:id="@+id/textView_hot_season_title_name"
+        android:layout_below="@id/rl_top"
+        android:text="当季热门"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_hot_season"
+        android:layout_below="@id/textView_hot_season_title_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

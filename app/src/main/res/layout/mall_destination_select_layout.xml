@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/tv_mall_all_destination"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:text="全部目的地" />
+
+    <View
+        android:background="#cecaca"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_mall_intelligent_sorting"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:text="智能排序" />
+
+   <View
+       android:layout_width="1dp"
+       android:background="#cecaca"
+       android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_mall_more_screening"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:text="更多筛选" />
+</LinearLayout>

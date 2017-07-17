@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/seek_doyen_head_layout"/>
+
+        <include layout="@layout/select_play_title_layout"/>
+
+        <include layout="@layout/seek_doyen_play_layout"/>
+
+        <include layout="@layout/seek_doyen_cicerone_layout"/>
+
+        <include layout="@layout/seek_doyen_service_layout"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

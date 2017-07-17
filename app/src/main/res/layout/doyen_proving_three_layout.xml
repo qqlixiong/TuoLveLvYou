@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@color/mask_tags"
+                android:layout_height="240dp">
+
+    <RelativeLayout
+        android:layout_margin="16dp"
+        android:background="#ffffff"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/iv_doyen_a"/>
+
+        <TextView
+            android:text="南拳被回复哦"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_doyen_a"
+            android:layout_toEndOf="@+id/iv_doyen_a"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/textView78"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_aaa"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/textView78"
+            android:layout_toRightOf="@+id/iv_doyen_a"
+            android:layout_toEndOf="@+id/iv_doyen_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/doyen_proving_t_layout"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_aa"
+            android:layout_marginRight="16dp"
+            android:background="#dad6d6"
+            android:layout_below="@+id/rl_aaa"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/view_aa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/doyen_select"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

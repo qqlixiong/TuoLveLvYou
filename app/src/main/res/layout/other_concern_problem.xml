@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/need_concern_problem_layout"/>
+
+    <EditText
+        android:layout_margin="16dp"
+        style="@style/edit_text_bg"
+        android:hint="多行输入"
+        android:gravity="top"
+        android:padding="16dp"
+        android:background="@drawable/doyen_bg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <include layout="@layout/other_concern_shadow_layout"/>
+</LinearLayout>

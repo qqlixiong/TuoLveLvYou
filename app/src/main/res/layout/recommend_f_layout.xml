@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:id="@+id/rl_recommend_d"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/iv_f"/>
+
+    <TextView
+        android:text="大屿山"
+        android:textColor="@color/recommend_text_color"
+        android:textSize="16sp"
+        android:layout_below="@id/iv_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_f"/>
+
+    <RatingBar
+        android:layout_below="@id/tv_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/ratingBar_f"
+        style="?android:attr/ratingBarStyleSmall"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="5"/>
+
+    <TextView
+        android:text="9.8"
+        android:textSize="12sp"
+        android:textColor="@color/recommend_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingBar_f"
+        android:layout_toRightOf="@+id/ratingBar_f"
+        android:layout_toEndOf="@+id/ratingBar_f"
+        android:id="@+id/tv_f_x"/>
+
+    <TextView
+        android:text="日游小团"
+        android:textColor="@color/recommend_text_color"
+        android:textSize="12sp"
+        android:layout_below="@id/ratingBar_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/tv_f_a"/>
+
+    <TextView
+        android:text="225"
+        android:textSize="12sp"
+        android:textColor="#ff0000"
+        android:layout_below="@id/ratingBar_f"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_f_a"
+        android:layout_toEndOf="@+id/tv_f_a"
+        android:id="@+id/tv_f_b"/>
+
+    <TextView
+        android:text="元起"
+        android:textColor="@color/recommend_text_color"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_f_b"
+        android:layout_toRightOf="@+id/tv_f_b"
+        android:layout_toEndOf="@+id/tv_f_b"
+        android:id="@+id/tv_f_z"/>
+</RelativeLayout>

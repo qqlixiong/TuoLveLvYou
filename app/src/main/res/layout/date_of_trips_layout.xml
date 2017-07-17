@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/need_service_date_layout"/>
+
+    <TextView
+        android:text="请选择出行日期"
+        android:textSize="18sp"
+        android:paddingLeft="24dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+</merge>

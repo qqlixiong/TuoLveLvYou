@@ -1,0 +1,38 @@
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuolve.lvyou.shopping.fragment.TribeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/rg_tribe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/button_recommend"
+                style="@style/tribe_top_style"
+                android:text="推荐"/>
+
+            <RadioButton
+                android:id="@+id/button_outdoor_travel"
+                style="@style/tribe_top_style"
+                android:text="户外出行"/>
+        </RadioGroup>
+
+        <FrameLayout
+            android:id="@+id/fl_tribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rg_tribe">
+        </FrameLayout>
+    </RelativeLayout>
+
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

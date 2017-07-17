@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg_destination"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/rb_all_destination"
+        style="@style/top_tag_style"
+        android:text="全部目的地"/>
+
+    <View
+        android:background="#cecaca"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"/>
+
+    <RadioButton
+        android:id="@+id/rb_intelligent_sorting"
+        style="@style/top_tag_style"
+        android:text="智能排序"/>
+
+    <View
+        android:background="#cecaca"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"/>
+
+    <RadioButton
+        android:id="@+id/rb_more_screening"
+        style="@style/top_tag_style"
+        android:text="更多筛选"/>
+</RadioGroup>

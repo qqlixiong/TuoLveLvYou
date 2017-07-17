@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#dbdbe4</color>
+    <color name="colorEditTextGray">#bcbcc2</color>
+    <color name="colorRecommendGray">#ece9e9</color>
+    <color name="green">#0edcce</color>
+    <color name="mask_tags">#FF652D</color>
+    <color name="login_a">#FB6928</color>
+    <color name="login_b">#F4cc53</color>
+    <color name="login_ok">#FFCA2C</color>
+    <color name="login_text_color">#D4D4D4</color>
+    <color name="login_text_line">#F2F2F2</color>
+    <color name="login_rig_code">#FFCB2C</color>
+    <color name="destination_select">#FED96C</color>
+    <color name="destination_select_a">#828282</color>
+    <color name="destination_select_b">#F6F6F6</color>
+    <color name="destination_select_c">#C8C8C8</color>
+    <color name="white">#ffffff</color>
+    <color name="recommend_search">#88252424</color>
+    <color name="recommend_text_color">#6e6d6d</color>
+    <color name="recommend_a">#ff662d</color>
+    <color name="recommend_b">#2a2a2a</color>
+    <color name="recommend_c">#a9a9a9</color>
+    <color name="guess_like_a">#ffd044</color>
+    <color name="guess_like_b">#737373</color>
+    <color name="guess_like_c">#ffcb2d</color>
+</resources>

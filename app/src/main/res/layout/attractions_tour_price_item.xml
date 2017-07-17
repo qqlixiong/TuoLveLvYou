@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rv_bg"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/iv_attractions_tour_price"/>
+
+    <TextView
+        android:text="上海/香港/北京/杭州/广州/成都往返菲律宾长滩岛5-7天自由行"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/iv_attractions_tour_price"
+        android:layout_toRightOf="@+id/iv_attractions_tour_price"
+        android:layout_toEndOf="@+id/iv_attractions_tour_price"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/textView41"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@android:drawable/star_on"
+        android:layout_below="@+id/textView41"
+        android:layout_alignLeft="@+id/textView41"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView17"/>
+
+    <TextView
+        android:text="上海,香港等地-长滩岛"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView17"
+        android:layout_toRightOf="@+id/imageView17"
+        android:layout_toEndOf="@+id/imageView17"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/textView42"/>
+
+    <TextView
+        android:text="已售500件"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView17"
+        android:layout_alignLeft="@+id/imageView17"
+        android:layout_alignStart="@+id/imageView17"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView43"/>
+
+    <TextView
+        android:text="元起"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView43"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView44"/>
+
+    <TextView
+        android:text="￥2599"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/textView44"
+        android:layout_toStartOf="@+id/textView44"
+        android:layout_below="@id/textView42"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="#FF0000"
+        android:id="@+id/tv_attractions_tour_price"/>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rl_doyen_recommend"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="140dp"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_doyen_b"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/iv_doyen_b"
+        android:layout_alignLeft="@+id/iv_doyen_b"
+        android:layout_alignStart="@+id/iv_doyen_b"
+        android:layout_marginTop="16dp"
+        android:id="@+id/iv_doyen_c"/>
+
+    <TextView
+        android:text="张三"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_doyen_c"
+        android:layout_toRightOf="@+id/iv_doyen_c"
+        android:layout_toEndOf="@+id/iv_doyen_c"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/tv_doyen_a"/>
+
+    <TextView
+        android:text="日本iahdigifjgflgkfngsbg"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_doyen_a"
+        android:layout_alignLeft="@+id/tv_doyen_a"
+        android:layout_alignStart="@+id/tv_doyen_a"
+        android:id="@+id/tv_doyen_b"/>
+
+    <!--<TextView
+        android:id="@+id/textView_doyen_name"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/tv_guess_a"
+        android:layout_alignLeft="@+id/iv_person_message"
+        android:layout_alignStart="@+id/iv_person_message"
+        android:background="@drawable/doyen_bg"
+        android:gravity="center"
+        android:text="李思"/>-->
+
+    <!--<TextView
+        android:id="@+id/tv_guess_a"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_person_message"
+        android:layout_alignStart="@+id/iv_person_message"
+        android:layout_below="@+id/iv_person_message"
+        android:layout_marginTop="4dp"
+        android:text="西班牙"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView_describe"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_guess_a"
+        android:layout_alignStart="@+id/tv_guess_a"
+        android:layout_below="@+id/tv_guess_a"
+        android:layout_marginTop="6dp"
+        android:text="如果你无法简洁的表达你的想法,那只说明你还不够了解它"
+        android:textSize="15sp"/>-->
+</RelativeLayout>

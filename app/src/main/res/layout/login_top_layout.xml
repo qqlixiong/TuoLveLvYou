@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+    <RadioButton
+        android:text="普通会员"
+        android:textSize="18sp"
+        android:background="@drawable/login_b_selector"
+        android:textColor="@drawable/login_a_selector"
+        android:button="@android:color/transparent"
+        android:gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/rb_login_a"/>
+
+    <RadioButton
+        android:text="付费会员"
+        android:textSize="18sp"
+        android:button="@android:color/transparent"
+        android:gravity="center"
+        android:background="@drawable/login_c_selector"
+        android:textColor="@drawable/login_a_selector"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/rb_login_b"/>
+</RadioGroup>

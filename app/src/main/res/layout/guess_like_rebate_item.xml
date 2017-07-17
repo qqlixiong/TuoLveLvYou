@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:id="@+id/ll_guess_like_rebate"
+                android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_guess_like_rebate"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <include layout="@layout/guess_like_rebate_mall"/>
+</LinearLayout>

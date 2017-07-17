@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.tuolve.lvyou.shopping.fragment.TribeRecommendFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_tribe_recommend_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include layout="@layout/tribe_recommend_shadow_layout"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/rv_tribe_recommend"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/rv_tribe_recommend_bottom"
+        android:layout_below="@id/rv_tribe_recommend_top"/>
+
+</LinearLayout>

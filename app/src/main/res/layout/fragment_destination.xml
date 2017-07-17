@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuolve.lvyou.destination.fragment.DestinationFragment">
+
+    <include layout="@layout/destination_title_layout"
+        android:id="@+id/line_top"/>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/line_top"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/left_a_layout"/>
+
+        <View
+            style="@style/vertical_line"/>
+
+        <FrameLayout
+            android:id="@+id/fl_content_destination"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>

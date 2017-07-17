@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:layout_marginBottom="16dp"
+              android:orientation="horizontal">
+
+    <include layout="@layout/doyen_reply_name_b_layout"/>
+
+    <View
+        android:layout_marginTop="10dp"
+        style="@style/vertical_line"/>
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/go"/>
+
+    <include layout="@layout/doyen_reply_name_c_layout"/>
+
+    <View
+        android:layout_marginTop="10dp"
+        style="@style/vertical_line"/>
+
+    <include layout="@layout/doyen_reply_name_d_layout"/>
+</LinearLayout>

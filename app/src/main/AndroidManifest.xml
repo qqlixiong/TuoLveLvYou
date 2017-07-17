@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.tuolve.lvyou"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE"/>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="6szGXiXjrSWcX88EwO2lTPggwxTGwSXu"/>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:permission="android.permission.BAIDU_LOCATION_SERVICE"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.4"/>
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".my.MyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".my.activity.OutdoorTravelActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MyOrderActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MyCouponActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MyFootMackActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MyAnswerActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MyMateActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MemberRechargeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.AboutUsActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MemberShoppingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MyTeamActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MyCollectActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.MyCultureActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.activity.TourCityActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.setting.MySettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.setting.userpws.MyUserPwsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.setting.userpws.MyRevisePwsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.setting.userpws.RevisePwsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.setting.personmessage.PersonMessageActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.setting.personmessage.PersonNickNameActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".my.setting.propellingsetting.PropellingSettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".destination.MallAllDestinationActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".shopping.scenicplay.ScenicPlayActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".shopping.indulgence.OddsActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".shopping.selectdiscount.SelectDiscountActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".shopping.guesslike.GuessLikeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".recommend.activity.DoyenRecommendActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".recommend.activity.SeekDoyenActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".recommend.seasonplay.activity.SeasonPlayActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".shopping.guesslike.HotelPerimeterActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".recommend.seasonplay.activity.ImmediateReservationActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".recommend.seasonplay.activity.NextFillInInfoActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".destination.activity.MapActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".login.EnrollActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

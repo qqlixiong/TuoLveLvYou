@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_mall_all_destination"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tuolve.lvyou.destination.MallAllDestinationActivity">
+
+    <include layout="@layout/my_title_bar"/>
+
+    <include layout="@layout/destination_top_layout"/>
+
+    <View
+        style="@style/line_view"/>
+
+    <FrameLayout
+        android:id="@+id/fl_mall_all_destination"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:id="@+id/activity_my"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuolve.lvyou.my.MyActivity">
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="我的订单"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="我的优惠券"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_foot_mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="我的足迹"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="我发布的帖子"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="我的问答"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_mate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="我的结伴"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/member_recharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="会员充值"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/member_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="会员商城"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/my_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_name="我的团队"
+        my:my_src="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomMyView
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        my:my_name="联系我们"
+        my:my_src="@android:drawable/star_on"/>
+
+</merge>

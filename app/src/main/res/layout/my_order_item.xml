@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:background="@drawable/rv_bg">
+
+    <TextView
+        android:text="【梦幻通话世界】香港迪士尼乐园一日/两日游门票"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/tv_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        style="@style/line_view"
+        android:id="@+id/line_view"
+        android:layout_below="@id/tv_title"/>
+
+    <TextView
+        android:text="订单号："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/textView20"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/line_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="223132456767"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_toRightOf="@+id/textView20"
+        android:layout_toEndOf="@+id/textView20"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:id="@+id/textView21"/>
+
+    <TextView
+        android:text="产品类型："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView22"/>
+
+    <TextView
+        android:text="一日电子票  成人票"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView22"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21"
+        android:id="@+id/textView23"/>
+
+    <TextView
+        android:text="出行人数："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView22"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView24"/>
+
+    <TextView
+        android:text="1成人"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23"
+        android:id="@+id/textView25"/>
+
+    <TextView
+        android:text="订单金额："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView26"/>
+
+    <TextView
+        android:text="￥456.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView26"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:id="@+id/textView27"/>
+
+    <View
+        android:id="@+id/line_view_end"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView26"
+        style="@style/line_view"/>
+
+    <TextView
+        android:text="立即支付"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@drawable/doyen_bg"
+        android:layout_below="@+id/line_view_end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/tv_immediate_pay"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:text="请在59：59内完成支付"
+        android:textSize="16sp"
+        android:textColor="#FF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time_quantum"
+        android:layout_below="@+id/line_view_end"
+        android:layout_marginTop="16dp"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignStart="@+id/textView26"/>
+
+    <TextView
+        android:text="申请售后"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@drawable/doyen_bg"
+        android:id="@+id/tv_after_sales"
+        android:layout_below="@+id/line_view_end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@+id/tv_immediate_pay"
+        android:layout_toStartOf="@+id/tv_immediate_pay"/>
+</RelativeLayout>

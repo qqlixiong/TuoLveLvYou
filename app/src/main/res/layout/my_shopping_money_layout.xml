@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:money="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.tuolve.lvyou.view.CustomMoneyView
+        money:money_name="分销佣金"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.tuolve.lvyou.view.CustomMoneyView
+        money:money_name="分销订单"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.tuolve.lvyou.view.CustomMoneyView
+        money:money_name="我的团队"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.tuolve.lvyou.view.CustomMoneyView
+        money:money_name="我的二维码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.tuolve.lvyou.view.CustomMoneyView
+        money:money_name="团队业绩奖励"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</merge>

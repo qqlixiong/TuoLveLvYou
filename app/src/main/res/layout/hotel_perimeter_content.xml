@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/hotel_perimeter_head_layout"/>
+
+        <include layout="@layout/hotel_perimeter_price_layout"/>
+
+        <include layout="@layout/hotel_perimeter"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

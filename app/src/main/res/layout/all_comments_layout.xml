@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/shadow_layout"
+        android:id="@+id/shadow_layout"/>
+
+    <ImageView
+        android:layout_below="@+id/shadow_layout"
+        android:src="@drawable/title_pic"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="点评"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="28dp"
+        android:layout_below="@+id/shadow_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView67"/>
+
+    <View
+        android:id="@+id/line_view"
+        android:layout_below="@id/textView67"
+        style="@style/line_view"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_all_comments"
+        android:layout_below="@id/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

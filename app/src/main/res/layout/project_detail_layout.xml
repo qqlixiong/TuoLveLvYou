@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <TextView
+        android:text="项目详情介绍"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/doyen_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:id="@+id/textView116"/>
+
+    <include layout="@layout/shadow_layout"/>
+
+    <FrameLayout
+        android:id="@+id/fl_guess_like"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--<com.tuolve.lvyou.view.MyTextView
+        android:id="@+id/project_detail_guess_like"
+        android:layout_below="@id/textView116"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_text="猜你喜欢"/>
+
+    <View
+        android:layout_below="@id/project_detail_guess_like"
+        style="@style/line_view"/>-->
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_alignParentBottom="true"
+              android:layout_width="match_parent"
+              android:background="#edecec"
+              android:layout_height="60dp">
+
+
+    <TextView
+        android:text="合计￥1074"
+        android:textSize="18sp"
+        android:paddingLeft="16dp"
+        android:layout_width="0dp"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/textView113"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:text="下一步,填写信息"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:background="#ec8823"
+        android:textColor="#ffffff"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_next_fill_in_info"
+        android:layout_weight="1"/>
+</LinearLayout>

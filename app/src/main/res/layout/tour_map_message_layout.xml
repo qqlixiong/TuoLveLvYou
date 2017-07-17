@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp"
+        android:id="@+id/textView75"/>
+
+    <TextView
+        android:text="地址:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView79"/>
+
+    <TextView
+        android:text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView75"
+        android:layout_alignLeft="@+id/textView75"
+        android:layout_alignStart="@+id/textView75"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView80"/>
+
+    <TextView
+        android:text="到达方式:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView80"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView81"/>
+
+    <TextView
+        android:text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView80"
+        android:layout_alignLeft="@+id/textView80"
+        android:layout_alignStart="@+id/textView80"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView82"/>
+
+    <TextView
+        android:text="开放时间:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView82"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView83"/>
+
+    <TextView
+        android:text="门票：3岁以下儿童免费，门票：3岁以下儿童免费"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView82"
+        android:layout_alignLeft="@+id/textView82"
+        android:layout_alignStart="@+id/textView82"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView84"/>
+
+    <TextView
+        android:text="门票:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView84"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView85"/>
+
+    <TextView
+        android:text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView84"
+        android:layout_alignLeft="@+id/textView84"
+        android:layout_alignStart="@+id/textView84"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView86"/>
+
+    <TextView
+        android:text="电话:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView86"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView87"/>
+
+    <TextView
+        android:text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView86"
+        android:layout_alignLeft="@+id/textView86"
+        android:layout_alignStart="@+id/textView86"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView88"/>
+
+    <TextView
+        android:text="网址:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView89"
+        android:layout_alignBaseline="@+id/textView88"
+        android:layout_alignBottom="@+id/textView88"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="如果你无法简洁的表达你的想法,那只说明你还不够了解他。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView88"
+        android:layout_alignLeft="@+id/textView88"
+        android:layout_alignStart="@+id/textView88"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView90"/>
+
+    <TextView
+        android:text="温馨提示:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView90"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView91"/>
+
+    <View
+        android:layout_below="@id/textView90"
+        android:layout_marginTop="16dp"
+        style="@style/line_view"/>
+
+    <!--<TextView
+        android:text="&#45;&#45;阿尔伯特.爱因斯坦"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView90"
+        android:layout_alignLeft="@+id/textView90"
+        android:layout_alignStart="@+id/textView90"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView92"/>-->
+
+</RelativeLayout>

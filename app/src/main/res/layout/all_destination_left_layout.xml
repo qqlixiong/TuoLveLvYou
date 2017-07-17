@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="#bebeb3">
+
+    <RadioGroup
+        android:id="@+id/rg_all_destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_hot_city"
+            style="@style/left_tag_style"
+            android:text="亚洲"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_popular_island"
+            style="@style/left_tag_style"
+            android:text="非洲"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_hk_macao_taiwan"
+            style="@style/left_tag_style"
+            android:text="大洋洲"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_korea_japan"
+            style="@style/left_tag_style"
+            android:text="北美洲"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_southeast_asia"
+            style="@style/left_tag_style"
+            android:text="欧洲"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_other_asian"
+            style="@style/left_tag_style"
+            android:text="南美洲"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_europe"
+            style="@style/left_tag_style"
+            android:text="南极洲"/>
+
+        <View
+            style="@style/line_view"/>
+    </RadioGroup>
+</android.support.v4.widget.NestedScrollView>

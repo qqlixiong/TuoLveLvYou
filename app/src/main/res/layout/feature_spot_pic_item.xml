@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_feature_spot_pic"
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rv_bg"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/textView_feature_spot_pic_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_feature_spot_pic"
+        android:layout_alignStart="@+id/iv_feature_spot_pic"
+        android:layout_below="@+id/iv_feature_spot_pic"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="太行山"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/textView_feature_spot_pic_name"
+        android:layout_alignLeft="@+id/iv_feature_spot_pic"
+        android:layout_alignStart="@+id/iv_feature_spot_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_layout_rating_bar">
+
+        <include layout="@layout/rating_bar_item"/>
+    </RelativeLayout>
+
+    <TextView
+        android:text="日游小团"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/relative_layout_rating_bar"
+        android:layout_alignLeft="@+id/iv_feature_spot_pic"
+        android:layout_alignStart="@+id/iv_feature_spot_pic"
+        android:id="@+id/textView33"/>
+
+    <TextView
+        android:text="225"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/relative_layout_rating_bar"
+        android:layout_toRightOf="@+id/textView33"
+        android:layout_toEndOf="@+id/textView33"
+        android:id="@+id/textView34"/>
+
+    <TextView
+        android:text="元起"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_layout_rating_bar"
+        android:layout_toRightOf="@+id/textView34"
+        android:layout_toEndOf="@+id/textView34"
+        android:id="@+id/textView35"/>
+</RelativeLayout>

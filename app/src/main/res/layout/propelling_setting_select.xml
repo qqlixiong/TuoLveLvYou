@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:propelling="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.tuolve.lvyou.my.customview.PropellingSettingView
+        android:id="@+id/occasionally_remind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        propelling:propelling_setting_title="私信提醒"
+        propelling:propelling_setting_pic="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.PropellingSettingView
+        android:id="@+id/posts_remind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        propelling:propelling_setting_title="帖子相关提醒"
+        propelling:propelling_setting_pic="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.PropellingSettingView
+        android:id="@+id/question_and_answer_remind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        propelling:propelling_setting_title="问答相关提醒"
+        propelling:propelling_setting_pic="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.PropellingSettingView
+        android:id="@+id/companion_remind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        propelling:propelling_setting_title="结伴相关提醒"
+        propelling:propelling_setting_pic="@android:drawable/star_on"/>
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg_my_collect"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+    <RadioButton
+        android:id="@+id/my_collect_destination"
+        style="@style/top_tag_style"
+        android:text="目的地"/>
+
+    <RadioButton
+        android:id="@+id/my_collect_card"
+        style="@style/top_tag_style"
+        android:text="帖子"/>
+
+    <RadioButton
+        android:id="@+id/my_collect_rebate"
+        style="@style/top_tag_style"
+        android:text="折扣"/>
+
+    <RadioButton
+        android:id="@+id/my_collect_other"
+        style="@style/top_tag_style"
+        android:text="其它"/>
+</RadioGroup>

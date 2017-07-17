@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:my="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <com.tuolve.lvyou.view.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:my_text="猜你喜欢"/>
+
+    <View
+        style="@style/line_view"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_guess_like"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

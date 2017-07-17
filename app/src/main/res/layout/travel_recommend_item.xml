@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_person_message"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="4dp"
+        app:civ_border_color="@color/white"
+        android:layout_marginTop="140dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/textView_title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/recommend_c"
+        android:text="南拳被推张三"/>
+
+    <TextView
+        android:id="@+id/textView_title_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_title_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/recommend_b"
+        android:text="深度解析五月五哪儿玩"
+        android:textSize="18dp"/>
+
+    <!--<TextView
+        android:id="@+id/textView_travel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_travel_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="6dp"
+        android:text="&#45;&#45; 阿尔伯特.爱英斯坦"/>-->
+
+    <TextView
+        android:id="@+id/textView_travel"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/recommend_a"
+        android:gravity="center"
+        android:text="游记"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/textView_travel_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/recommend_c"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="13dp"
+        android:text="如果你无法简洁的表达你的想法,那只说明你还不够了解它如果你无法简洁的表达你的想法,那"
+        android:layout_below="@+id/textView_title_place"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <RelativeLayout
+        android:layout_below="@id/textView_travel_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/recommend_shadow_layout"/>
+    </RelativeLayout>
+
+</RelativeLayout>

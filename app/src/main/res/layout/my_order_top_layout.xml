@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg_my_order"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+    <RadioButton
+        android:id="@+id/rb_all_order"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_drawable_selector"
+        android:text="全部"/>
+
+    <RadioButton
+        android:id="@+id/rb_order_obligation"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_drawable_selector"
+        android:text="待付款"/>
+
+    <RadioButton
+        android:id="@+id/rb_supplemented"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_drawable_selector"
+        android:text="待补充"/>
+
+    <RadioButton
+        android:id="@+id/rb_pending_evaluation"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_drawable_selector"
+        android:text="待评价"/>
+
+    <RadioButton
+        android:id="@+id/rb_refund_or_after_sale"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_drawable_selector"
+        android:text="退款/售后"/>
+</RadioGroup>

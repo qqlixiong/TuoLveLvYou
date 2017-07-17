@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/season_play_head_layout"/>
+
+        <include layout="@layout/select_product_type_layout"/>
+    </LinearLayout>
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

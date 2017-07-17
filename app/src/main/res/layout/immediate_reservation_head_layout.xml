@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:padding="16dp"
+        android:text="【梦幻童话】香港迪士尼一日/门票(可订今日+无需打印)"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView132"/>
+
+    <View
+        style="@style/line_view"/>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:id="@+id/rl_hotel_perimeter"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/iv_hotel_perimeter"/>
+
+    <TextView
+        android:text="迪士尼乐园酒店"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_hotel_perimeter"
+        android:layout_alignLeft="@+id/iv_hotel_perimeter"
+        android:layout_alignStart="@+id/iv_hotel_perimeter"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:id="@+id/tv_hotel_perimeter_name"/>
+
+    <TextView
+        android:text="5星级"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_hotel_perimeter_name"
+        android:layout_alignLeft="@+id/tv_hotel_perimeter_name"
+        android:layout_alignStart="@+id/tv_hotel_perimeter_name"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView73"/>
+
+    <TextView
+        android:text="559km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView73"
+        android:layout_alignRight="@+id/iv_hotel_perimeter"
+        android:layout_alignEnd="@+id/iv_hotel_perimeter"
+        android:id="@+id/textView74"/>
+
+    <TextView
+        android:text="￥2988"
+        android:textSize="16sp"
+        android:textColor="#FF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView73"
+        android:layout_alignLeft="@+id/textView73"
+        android:layout_alignStart="@+id/textView73"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView76"/>
+
+    <TextView
+        android:text="元起"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/textView76"
+        android:layout_toRightOf="@+id/textView76"
+        android:layout_toEndOf="@+id/textView76"
+        android:id="@+id/textView77"/>
+</RelativeLayout>

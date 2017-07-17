@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.tuolve.lvyou.tribe.OutdoorTravelFragment">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/outdoor_travel_top"/>
+    </LinearLayout>
+
+    <View
+        style="@style/line_view"
+        android:id="@+id/line_view"
+        android:layout_below="@id/linear_layout_top"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/line_view"
+        android:id="@+id/rv_outdoor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

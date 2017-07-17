@@ -1,0 +1,22 @@
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.tuolve.lvyou.shopping.ShoppingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/banner_layout"/>
+
+        <include layout="@layout/choice_title_layout"/>
+
+        <include layout="@layout/hot_season_title_shopping_layout"/>
+
+        <include layout="@layout/guess_like_shopping_layout"/>
+    </LinearLayout>
+
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

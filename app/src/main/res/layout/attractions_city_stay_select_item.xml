@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+                android:layout_marginLeft="16dp"
+              android:layout_width="260dp"
+                android:background="@drawable/rv_bg"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/iv_attraction_city_stay_select"/>
+
+    <TextView
+        android:text="尖沙咀"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_attraction_city_stay_select"
+        android:layout_toEndOf="@+id/iv_attraction_city_stay_select"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView_attraction_city_stay_select_name"/>
+
+    <TextView
+        android:text="30%旅行者的选择"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_attraction_city_stay_select_name"
+        android:layout_alignLeft="@+id/textView_attraction_city_stay_select_name"
+        android:layout_alignStart="@+id/textView_attraction_city_stay_select_name"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView40"/>
+</RelativeLayout>

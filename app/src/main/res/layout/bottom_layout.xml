@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg_main"
+            android:background="#11000000"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+    <RadioButton
+        android:id="@+id/rb_member"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_drawable_selector"
+        android:text="首页"/>
+
+    <RadioButton
+        android:id="@+id/rb_recommend"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_a_drawable_selector"
+        android:text="推荐"/>
+
+    <RadioButton
+        android:id="@+id/rb_destination"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_b_drawable_selector"
+        android:text="目的地"/>
+
+    <RadioButton
+        android:id="@+id/rb_shopping"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_c_drawable_selector"
+        android:text="商城"/>
+
+    <RadioButton
+        android:id="@+id/rb_tribe"
+        style="@style/bottom_tag_style"
+        android:drawableTop="@drawable/rb_home_page_d_drawable_selector"
+        android:text="部落"/>
+</RadioGroup>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomMyView">
+        <attr name="my_src" format="reference"/>
+        <attr name="my_name" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyTextView">
+        <attr name="my_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomContactUsView">
+        <attr name="contact_us_name" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomExtractableView">
+        <attr name="extractable_money" format="string"/>
+        <attr name="extractable_name" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomMoneyView">
+        <attr name="money_name" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomPersonMessageMyView">
+        <attr name="person_pic" format="reference"/>
+        <attr name="person_title" format="string"/>
+        <attr name="person_name" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomPersonMessagePic">
+        <attr name="user_pic" format="reference"/>
+        <attr name="head_sculpture" format="reference"/>
+        <attr name="user_name" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchView">
+        <attr name="hasShadow" format="boolean"/>
+        <attr name="primaryColor" format="color"/>
+        <attr name="primaryColorDark" format="color"/>
+        <attr name="isOpened" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="PropellingSettingView">
+        <attr name="propelling_setting_pic" format="reference"/>
+        <attr name="propelling_setting_title" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumberAddSubView">
+        <attr name="value" format="integer|reference" />
+        <attr name="minValue" format="integer|reference" />
+        <attr name="maxValue" format="integer|reference" />
+        <attr name="numberAddBackground" format="reference" />
+        <attr name="numberSubBackground" format="reference" />
+    </declare-styleable>
+</resources>

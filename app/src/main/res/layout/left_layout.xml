@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_hot_city"
+            style="@style/left_tag_style"
+            android:text="热门目的地"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_popular_island"
+            style="@style/left_tag_style"
+            android:text="人气海岛"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_hk_macao_taiwan"
+            style="@style/left_tag_style"
+            android:text="港澳台"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_korea_japan"
+            style="@style/left_tag_style"
+            android:text="日韩朝"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_southeast_asia"
+            style="@style/left_tag_style"
+            android:text="东南亚"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_other_asian"
+            style="@style/left_tag_style"
+            android:text="亚洲其它"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_europe"
+            style="@style/left_tag_style"
+            android:text="欧洲"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_north_america"
+            style="@style/left_tag_style"
+            android:text="北美洲"/>
+
+        <View
+            style="@style/line_view"/>
+
+        <RadioButton
+            android:id="@+id/rb_africa"
+            style="@style/left_tag_style"
+            android:text="非洲"/>
+
+        <View
+            style="@style/line_view"/>
+    </RadioGroup>
+</android.support.v4.widget.NestedScrollView>

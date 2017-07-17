@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/line_view_top"
+        style="@style/line_view"/>
+
+    <TextView
+        android:text="输入旧密码"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_view_top"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:id="@+id/textView_title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        style="@style/edit_text_bg"
+        android:hint="单行输入"
+        android:singleLine="true"
+        android:paddingLeft="16dp"
+        android:background="@drawable/doyen_bg"
+        android:layout_below="@+id/textView_title"
+        android:layout_alignLeft="@+id/textView_title"
+        android:layout_alignStart="@+id/textView_title"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText"/>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/iv_seek_doyen_play"/>
+
+    <TextView
+        android:text="才艺女神带你玩转马德里"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_seek_doyen_play"
+        android:layout_toRightOf="@+id/iv_seek_doyen_play"
+        android:layout_toEndOf="@+id/iv_seek_doyen_play"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView105"/>
+
+    <TextView
+        android:text="向导服务"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView105"
+        android:layout_alignLeft="@+id/textView105"
+        android:layout_alignStart="@+id/textView105"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView106"/>
+
+    <TextView
+        android:text="西班牙"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView106"
+        android:layout_alignLeft="@+id/textView106"
+        android:layout_alignStart="@+id/textView106"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView107"/>
+
+    <TextView
+        android:text="马德里"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView107"
+        android:layout_toRightOf="@+id/textView107"
+        android:layout_toEndOf="@+id/textView107"
+        android:id="@+id/textView108"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/go"
+        android:layout_marginRight="17dp"
+        android:id="@+id/iv_seek_doyen_go"
+        android:layout_alignTop="@+id/textView106"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"/>
+</RelativeLayout>

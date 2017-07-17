@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/iv_hotel"/>
+
+    <TextView
+        android:text="京帝酒店"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_hotel"
+        android:layout_toEndOf="@+id/iv_hotel"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/tv_hotel_name"/>
+
+    <TextView
+        android:text="9.8分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_hotel_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:id="@+id/textView122"/>
+
+    <TextView
+        android:text="五星级"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_hotel_name"
+        android:layout_alignLeft="@+id/tv_hotel_name"
+        android:layout_alignStart="@+id/tv_hotel_name"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView123"/>
+
+    <TextView
+        android:text="旺角/油麻地/佐敦"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView123"
+        android:layout_alignLeft="@+id/textView123"
+        android:layout_alignStart="@+id/textView123"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView124"/>
+
+    <TextView
+        android:text="元起"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_hotel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView125"/>
+
+    <TextView
+        android:text="955"
+        android:textSize="18sp"
+        android:textColor="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView125"
+        android:layout_toLeftOf="@+id/textView125"
+        android:layout_toStartOf="@+id/textView125"
+        android:id="@+id/textView126"/>
+</RelativeLayout>

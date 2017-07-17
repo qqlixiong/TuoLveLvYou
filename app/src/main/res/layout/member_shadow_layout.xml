@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="4dp"
+              android:background="@color/colorRecommendGray">
+
+    <View
+        style="@style/line_view"/>
+
+    <View
+        android:layout_marginTop="3dp"
+        android:background="@color/colorRecommendGray"
+        style="@style/line_view"/>
+</RelativeLayout>

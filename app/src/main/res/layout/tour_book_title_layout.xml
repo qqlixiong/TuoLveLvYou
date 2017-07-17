@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@android:drawable/btn_star_big_on"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/imageView_tour_city_title"/>
+
+    <View
+        android:layout_below="@id/imageView_tour_city_title"
+        style="@style/line_view"
+        android:id="@+id/view"/>
+
+    <TextView
+        android:text="香港锦囊"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/imageView_tour_city_title"
+        android:layout_toEndOf="@+id/imageView_tour_city_title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:id="@+id/textView5"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/go"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:id="@+id/imageView13"/>
+
+    <TextView
+        android:text="全部六本"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_toLeftOf="@+id/imageView13"
+        android:layout_toStartOf="@+id/imageView13"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/textView18"
+        android:gravity="center"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>

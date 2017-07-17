@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_person_message"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:person_message="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tuolve.lvyou.my.setting.personmessage.PersonMessageActivity">
+
+    <com.tuolve.lvyou.my.customview.CustomPersonMessagePic
+        android:id="@+id/person_head_sculpture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        person_message:user_name="头像"
+        person_message:user_pic="@android:drawable/star_on"/>
+
+    <com.tuolve.lvyou.my.customview.CustomPersonMessageMyView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_nick_name"
+        person_message:person_pic="@android:drawable/star_on"
+        person_message:person_name="里斯"
+        person_message:person_title="用户昵称"/>
+
+    <com.tuolve.lvyou.my.customview.CustomPersonMessageMyView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_six"
+        person_message:person_pic="@android:drawable/star_on"
+        person_message:person_name="男"
+        person_message:person_title="性别"/>
+
+    <com.tuolve.lvyou.my.customview.CustomPersonMessageMyView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_permanent_city"
+        person_message:person_pic="@android:drawable/star_on"
+        person_message:person_name="深圳"
+        person_message:person_title="常居城市"/>
+
+    <com.tuolve.lvyou.my.customview.CustomPersonMessageMyView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_individual_resume"
+        person_message:person_pic="@android:drawable/star_on"
+        person_message:person_name="很懒什么都没有留下"
+        person_message:person_title="个人简介"/>
+
+</LinearLayout>

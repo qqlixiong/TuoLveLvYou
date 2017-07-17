@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+                android:layout_marginLeft="16dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="5"/>
+
+    <TextView
+        android:text="9.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingBar"
+        android:layout_toRightOf="@+id/ratingBar"
+        android:layout_toEndOf="@+id/ratingBar"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:id="@+id/textView_score"/>
+
+    <TextView
+        android:text="(2200条评论)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView_score"
+        android:layout_toRightOf="@+id/textView_score"
+        android:layout_toEndOf="@+id/textView_score"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:id="@+id/textView57"/>
+
+    <!--<TextView
+        android:text="115467人去过"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_score"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView58"/>-->
+
+    <TextView
+        android:text="在1000家香港景点观光第1名"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_score"
+        android:id="@+id/textView59"/>
+
+    <TextView
+        android:text="主题公园"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/guess_like"
+        android:layout_below="@+id/textView59"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView60"/>
+
+    <TextView
+        android:text="游乐场"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/guess_like"
+        android:id="@+id/textView61"
+        android:layout_below="@+id/textView59"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/textView60"/>
+</RelativeLayout>

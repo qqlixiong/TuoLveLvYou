@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="59dp">
+
+    <TextView
+        android:text="筛选"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_hotel_perimeter_dressing"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        style="@style/vertical_line"/>
+
+    <TextView
+        android:text="排序"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/tv_hotel_perimeter_sort"
+        android:layout_weight="1"/>
+</LinearLayout>

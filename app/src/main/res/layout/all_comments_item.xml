@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_comments_user_pic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:text="南拳北腿张三"
+        android:id="@+id/tv_comments_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/iv_comments_user_pic"
+        android:layout_toRightOf="@+id/iv_comments_user_pic"/>
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_comments_nick"
+        android:layout_marginTop="8dp"
+        android:layout_alignLeft="@+id/tv_comments_nick"
+        android:layout_alignStart="@+id/tv_comments_nick"
+        android:text="14小时前"/>
+
+    <!--<TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView69"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_comments_nick"
+        android:text="31"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/textView70"
+        android:layout_toStartOf="@+id/textView70"
+        android:src="@android:drawable/star_on"/>-->
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:text="忧伤忧伤在邮箱里面忧伤忧伤在邮箱里面忧伤忧伤在邮箱里面忧伤忧伤在邮箱里面忧伤忧伤在邮箱里面忧伤忧伤在邮箱里面忧伤忧伤在邮箱里面忧伤忧伤在邮箱里面"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView69"
+        android:layout_alignLeft="@+id/textView69"
+        android:layout_alignStart="@+id/textView69"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_comments_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView71"
+        android:layout_alignLeft="@+id/textView71"
+        android:layout_alignStart="@+id/textView71"/>
+</RelativeLayout>

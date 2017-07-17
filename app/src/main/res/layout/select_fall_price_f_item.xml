@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:gravity="center_vertical"
+              android:background="@drawable/rv_bg"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/iv_a"/>
+
+    <include layout="@layout/discount_title_layout"/>
+
+    <include layout="@layout/dotted_line_view"/>
+
+    <include layout="@layout/discount_d_layout"/>
+</LinearLayout>

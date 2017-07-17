@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_weight="1"
+    android:layout_marginLeft="24dp"
+    android:layout_marginTop="16dp"
+    android:gravity="center_vertical"
+    android:background="@color/recommend_search">
+
+    <EditText
+        android:id="@+id/tv_guess_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:background="@android:color/transparent"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="目的地/景点/酒店/门票"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/icon_search"/>
+</RelativeLayout>

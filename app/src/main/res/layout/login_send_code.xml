@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <EditText
+        style="@style/edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPersonName"
+        android:hint="验证码"
+        android:id="@+id/editText_username_code"/>
+
+    <View
+        android:layout_below="@id/editText_username_code"
+        style="@style/line_view"/>
+
+    <ImageView
+        android:src="@drawable/verification_code_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/iv_ver_code"/>
+</RelativeLayout>

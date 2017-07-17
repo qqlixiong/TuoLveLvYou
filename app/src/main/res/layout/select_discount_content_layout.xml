@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingRight="16dp"
+              android:paddingLeft="16dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:text="如果你无法简洁的表达你的想法,那只说明你还不够了解他。如果你无法简洁的表达你的想法,那只说明你还不够了解他如果你无法简洁的表达你的想法,那只说明你还不够了解他。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:textColor="@color/guess_like_b"
+        android:layout_margin="16dp"
+        android:id="@+id/tv_select_discount_title"/><!--
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_select_discount_content"
+        android:text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
+
+    <TextView
+        android:text="&#45;&#45;阿尔伯特.爱因斯坦"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_select_discount_sign"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="10dp"/>-->
+</LinearLayout>

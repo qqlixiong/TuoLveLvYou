@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="70dp"
+              android:layout_height="wrap_content"
+    android:id="@+id/rl_title_shopping">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/btn_star_big_on"
+        android:layout_marginTop="20dp"
+        android:id="@+id/iv_person_message"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:text="机加油"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_guess_a"
+        android:textSize="14sp"
+        android:layout_below="@+id/iv_person_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"/>
+</RelativeLayout>

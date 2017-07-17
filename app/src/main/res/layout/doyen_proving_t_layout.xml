@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginBottom="16dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/btn_collection_highlight"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/iv_doyen_a"/>
+
+    <TextView
+        android:text="西班牙"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/iv_doyen_a"
+        android:layout_toEndOf="@+id/iv_doyen_a"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/textView78"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icon_serious_identity"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:id="@+id/imageView16"
+        android:layout_alignBottom="@+id/textView78"
+        android:layout_toRightOf="@+id/textView78"
+        android:layout_toEndOf="@+id/textView78"/>
+
+    <TextView
+        android:text="身份已验证"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView93"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/imageView16"/>
+</RelativeLayout>

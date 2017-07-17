@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg_scenic_play"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/rb_scenic_play"
+        style="@style/top_tag_style"
+        android:text="景点玩乐"/>
+
+    <RadioButton
+        android:id="@+id/rb_fine_food"
+        style="@style/top_tag_style"
+        android:text="美食"/>
+
+    <RadioButton
+        android:id="@+id/rb_trade"
+        style="@style/top_tag_style"
+        android:text="购物"/>
+
+    <RadioButton
+        android:id="@+id/rb_entertainment"
+        style="@style/top_tag_style"
+        android:text="休闲娱乐"/>
+
+    <RadioButton
+        android:id="@+id/rb_more_categories"
+        style="@style/top_tag_style"
+        android:text="更多分类"/>
+</RadioGroup>
