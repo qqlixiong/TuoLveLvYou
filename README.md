@@ -71,7 +71,7 @@
 ----------------------------------------------------------------------------------
 ###  1.写一个BaseHolder:<br>
 ------------------------------------------------------------------------------------
- public abstract class BaseHolder<T> {<br>
+ public abstract class BaseHolder\<T> {<br>
     private View contentView;//界面
 
     //初始化的时候 先初始化空间，再把控件 都写到view里面（类似于listview的 view.setTag(holder)）
